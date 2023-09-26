@@ -1,6 +1,6 @@
 # AWS-CloudTrailExamples
 
-
+## EC2
 ### [CreateKeyPair](/EC2-CreateKeyPair.json)  
 ### [ImportKeyPair](EC2-CreateKeyPair.json)  
 ### [RunInstances](EC2-CreateKeyPair.json)  
