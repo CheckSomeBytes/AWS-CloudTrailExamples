@@ -1,7 +1,7 @@
 # AWS-CloudTrailExamples
 
 
-[EC2-CreateKeyPair](EC2-CreateKeyPair.json)
+[EC2-CreateKeyPair](/EC2-CreateKeyPair.json) 
 [EC2-ImportKeyPair](EC2-CreateKeyPair.json)
 [EC2-RunInstances](EC2-CreateKeyPair.json)
 [IAM-AddRoleToInstanceProfile](EC2-CreateKeyPair.json)
