@@ -1,0 +1,43 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "Root",
+        "principalId": "111111111111",
+        "arn": "arn:aws:iam::111111111111:root",
+        "accountId": "111111111111",
+        "accessKeyId": "ASIAQ2EMK5RLWKQMOHHO",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2023-09-04T18:07:34Z",
+                "mfaAuthenticated": "true"
+            }
+        }
+    },
+    "eventTime": "2023-09-04T18:08:16Z",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "CreateLoginProfile",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "0.0.0.0",
+    "userAgent": "AWS Internal",
+    "requestParameters": {
+        "passwordResetRequired": true,
+        "userName": "HackerMan"
+    },
+    "responseElements": {
+        "loginProfile": {
+            "passwordResetRequired": true,
+            "userName": "HackerMan",
+            "createDate": "Sep 4, 2023 6:08:16 PM"
+        }
+    },
+    "requestID": "1e5736ae-a5de-4775-9b2f-ddddf0cb6638",
+    "eventID": "69c9ac18-70c6-4b5b-a01a-540a399748fa",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "056128891991",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}

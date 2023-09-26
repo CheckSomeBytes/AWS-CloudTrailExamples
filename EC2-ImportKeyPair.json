@@ -1,0 +1,42 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "Root",
+        "principalId": "111111111111",
+        "arn": "arn:aws:iam::111111111111:root",
+        "accountId": "111111111111",
+        "accessKeyId": "ASIAQ2EMK5RL5PRSTZW7",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2023-09-26T05:00:42Z",
+                "mfaAuthenticated": "true"
+            }
+        }
+    },
+    "eventTime": "2023-09-26T05:10:49Z",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "ImportKeyPair",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "0.0.0.0",
+    "userAgent": "AWS Internal",
+    "requestParameters": {
+        "keyName": "testkeyyyyz",
+        "publicKeyMaterial": "c3NoLXJzYSBBQUFE3WmFER0BQjNOemFDMUFBREFRQUJBQUFDQVFEV1lTNVZOYkVsZm5GazlXljMkVBQIU1dhbzhHdXJMcGM3cUY2VDdTenF0S3ZaamJ0dGh6V09hY3dQQ1R6RkdMZmpJdDQ0bnVibEY1cUdHbmx1OXRZSkI3Qk0rb2V5VVpsUG02dUJNMVp2ZW5pQkNqTHBQS1RKSGNjOUJNaG9GQllVMnBNV0pINFlrOUxPMDQyTEU1VGtYWUFjSDdGL1dMa2hiNE5vNlV6Y05HRGZrMXJCa0c5bGFnRVE2Rjk1akoreW9DdllidWRteFpicEltUUtRbVNzdUVWLzVzelhsN2hpQS9xUzFhYnVFeVZaMklHRXUwbzZzT2FhZkVYVUxFRmc3SzdMY0FtQTE1WG0xYUowYUdDc1YyNzdqY2tlVkdwbmpKWUx1algvMW1nT3F2R29EaWRKNUp1TEl4ODdUMndFN1BMSDE5KzRQK3dHcCtSdEhSMS8vNzFXRkRJYlJ4YlkxazhaZ0YxRmdvcFQyOUQrbHJnS08zaUJTcExiQzNtR2hVOTBIc2E2M0hTdmZDelArR0ZzK2JDRmFvUm1lbUpha2VHamJzUXZlUmNwSDh3QUZrRHVZMkdaMjdlR3pDV1EyVUVtT3dqNEJNZy9wVDExb0pmd3RSSHNSWnJrMjg5ZkJkVlRERDVDM0Z3SnhzS3JiTWw2a1liaEpIejNNSEtNQjNONDhBdC96UzVQakx6ZDdKRUJPRGppNmQ1bHVKTVJjTldDOGRoekk5VnFySnU0QTJvMjhaVXh3bTJWcW1GOGVURDNuRU9oZXNPVk1NY2ZtM1ZyY2R6ZkVzZVZYUGQ1c1JTb1o0SXEyeVNjN0c3a3VsNU1xNjdSR0h3TFdEY01aSzBZNTFkcDcycTJVRmtJSDFLMGFSNzJpNTRsdkw3YVF5VlhTc0RkbFE9PSBkdXBpbkBMdW5hclN0YXRpb24NCg=="
+    },
+    "responseElements": {
+        "requestId": "83819240-c10b-4df1-ac7c-900e158b88b2",
+        "keyName": "testkeyyyyz",
+        "keyFingerprint": "c5:31:57:dd:67:58:28:20:0d:91:48:6f:9d:ca:26:9e",
+        "keyPairId": "key-0ed32f6c60bf74710"
+    },
+    "requestID": "83819240-c10b-4df1-ac7c-900e158b88b2",
+    "eventID": "c3e612a5-1f48-4ee4-b126-b01b30cde41b",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "111111111111",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}

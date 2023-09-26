@@ -1,0 +1,37 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "Root",
+        "principalId": "111111111111",
+        "arn": "arn:aws:iam::111111111111:root",
+        "accountId": "111111111111",
+        "accessKeyId": "ASIAQ2EMK5RL6ZXWEGVM",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2023-09-06T05:44:39Z",
+                "mfaAuthenticated": "true"
+            }
+        }
+    },
+    "eventTime": "2023-09-06T06:42:01Z",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "AddRoleToInstanceProfile",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "0.0.0.0",
+    "userAgent": "AWS Internal",
+    "requestParameters": {
+        "instanceProfileName": "PersistRole",
+        "roleName": "PersistRole"
+    },
+    "responseElements": null,
+    "requestID": "e77759ae-1687-4272-a764-66f31558a818",
+    "eventID": "dd764ac9-0b70-48e3-928f-60ecd55b23f5",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "111111111111",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}

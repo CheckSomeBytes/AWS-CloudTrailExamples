@@ -1,0 +1,45 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "Root",
+        "principalId": "111111111111",
+        "arn": "arn:aws:iam::111111111111:root",
+        "accountId": "111111111111",
+        "accessKeyId": "ASIAQ2EMK5RL6ZXWEGVM",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2023-09-06T05:44:39Z",
+                "mfaAuthenticated": "true"
+            }
+        }
+    },
+    "eventTime": "2023-09-06T06:42:01Z",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "CreateInstanceProfile",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "0.0.0.0",
+    "userAgent": "AWS Internal",
+    "requestParameters": {
+        "instanceProfileName": "PersistRole"
+    },
+    "responseElements": {
+        "instanceProfile": {
+            "instanceProfileId": "AIPAQ2EMK5RL45WUTN62E",
+            "arn": "arn:aws:iam::111111111111:instance-profile/PersistRole",
+            "roles": [],
+            "path": "/",
+            "instanceProfileName": "PersistRole",
+            "createDate": "Sep 6, 2023 6:42:01 AM"
+        }
+    },
+    "requestID": "85c360b7-0fee-4c5f-afad-83e519c8e7ed",
+    "eventID": "eac5b7df-55fa-46c1-8b80-16bc3c9550bf",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "111111111111",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}

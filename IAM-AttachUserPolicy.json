@@ -1,0 +1,37 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "Root",
+        "principalId": "111111111111",
+        "arn": "arn:aws:iam::111111111111:root",
+        "accountId": "111111111111",
+        "accessKeyId": "ASIAQ2EMK5RLU4T3PJVK",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2023-09-13T20:38:44Z",
+                "mfaAuthenticated": "true"
+            }
+        }
+    },
+    "eventTime": "2023-09-13T20:42:22Z",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "AttachUserPolicy",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "0.0.0.0",
+    "userAgent": "AWS Internal",
+    "requestParameters": {
+        "userName": "AWS-EOD",
+        "policyArn": "arn:aws:iam::aws:policy/SecurityAudit"
+    },
+    "responseElements": null,
+    "requestID": "296f01ea-1d8c-493c-8b0a-b76915a33385",
+    "eventID": "0781700a-44fd-4da7-b3c0-6ec849d77126",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "111111111111",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}

@@ -1,0 +1,37 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "Root",
+        "principalId": "111111111111",
+        "arn": "arn:aws:iam::111111111111:root",
+        "accountId": "111111111111",
+        "accessKeyId": "ASIAQ2EMK5RL6ZXWEGVM",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2023-09-06T05:44:39Z",
+                "mfaAuthenticated": "true"
+            }
+        }
+    },
+    "eventTime": "2023-09-06T06:29:26Z",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "UpdateAssumeRolePolicy",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "0.0.0.0",
+    "userAgent": "AWS Internal",
+    "requestParameters": {
+        "policyDocument": "{\n\t\"Version\": \"2012-10-17\",\n\t\"Statement\": [\n\t\t{\n\t\t\t\"Effect\": \"Allow\",\n\t\t\t\"Principal\": {\n\t\t\t\t\"AWS\": [\n\t\t\t\t\t\"arn:aws:iam::833715826468:user/DistrictUser\"\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"Action\": \"sts:AssumeRole\",\n\t\t\t\"Condition\": {}\n\t\t}\n\t]\n}",
+        "roleName": "IAMReadOnly"
+    },
+    "responseElements": null,
+    "requestID": "b55d6863-1e38-45ae-8617-59287ad1588f",
+    "eventID": "54476f7d-ff7c-4775-b1c4-76c74e605402",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "111111111111",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}

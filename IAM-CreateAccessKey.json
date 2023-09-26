@@ -1,0 +1,53 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AROAQ2EMK5RL27HAOFK6B:persist",
+        "arn": "arn:aws:sts::111111111111:assumed-role/lambda_test-role-6mxewxup/persist",
+        "accountId": "111111111111",
+        "accessKeyId": "ASIAQ2EMK5RL23NVTBKG",
+        "sessionContext": {
+            "sessionIssuer": {
+                "type": "Role",
+                "principalId": "AROAQ2EMK5RL27HAOFK6B",
+                "arn": "arn:aws:iam::111111111111:role/service-role/lambda_test-role-6mxewxup",
+                "accountId": "111111111111",
+                "userName": "lambda_test-role-6mxewxup"
+            },
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2023-09-22T01:11:29Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2023-09-22T01:13:57Z",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "CreateAccessKey",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "0.0.0.0",
+    "userAgent": "Boto3/1.26.90 Python/3.9.17 Linux/4.14.255-311-248.529.amzn2.x86_64 exec-env/AWS_Lambda_python3.9 Botocore/1.29.90",
+    "requestParameters": {
+        "userName": "svc_purpose"
+    },
+    "responseElements": {
+        "accessKey": {
+            "accessKeyId": "AKIAQ2EMK5RLZGQ2P6RL",
+            "status": "Active",
+            "userName": "svc_purpose",
+            "createDate": "Sep 22, 2023 1:13:57 AM"
+        }
+    },
+    "requestID": "86b157fd-9c69-4606-9530-f85271c48314",
+    "eventID": "33940f08-51ef-4059-aca5-8a8f651748df",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "111111111111",
+    "eventCategory": "Management",
+    "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "iam.amazonaws.com"
+    }
+}

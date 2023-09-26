@@ -1,0 +1,44 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "Root",
+        "principalId": "111111111111",
+        "arn": "arn:aws:iam::111111111111:root",
+        "accountId": "111111111111",
+        "accessKeyId": "ASIAQ2EMK5RLRTD2XR77",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2023-09-06T05:44:39Z",
+                "mfaAuthenticated": "true"
+            }
+        }
+    },
+    "eventTime": "2023-09-06T06:39:00Z",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "CreateKeyPair",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "0.0.0.0",
+    "userAgent": "AWS Internal",
+    "requestParameters": {
+        "keyName": "persist-keys",
+        "keyType": "rsa",
+        "keyFormat": "pem"
+    },
+    "responseElements": {
+        "requestId": "8e56d361-1881-40cc-be15-ee4cbc669ead",
+        "keyName": "persist-keys",
+        "keyFingerprint": "6d:e4:85:48:30:50:07:ab:6e:cd:26:00:d0:b8:fb:43:08:1c:c4:d7",
+        "keyPairId": "key-03c68c5bdf16147f7",
+        "keyMaterial": "<sensitiveDataRemoved>"
+    },
+    "requestID": "8e56d361-1881-40cc-be15-ee4cbc669ead",
+    "eventID": "4dcde001-1ba4-4cd9-ad67-ee1b4304e5da",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "111111111111",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}

@@ -1,0 +1,90 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "Root",
+        "principalId": "111111111111",
+        "arn": "arn:aws:iam::111111111111:root",
+        "accountId": "111111111111",
+        "accessKeyId": "ASIAQ2EMK5RLTHYMB7WR",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2023-09-05T17:27:01Z",
+                "mfaAuthenticated": "true"
+            }
+        }
+    },
+    "eventTime": "2023-09-05T17:49:28Z",
+    "eventSource": "lambda.amazonaws.com",
+    "eventName": "UpdateFunctionCode20150331v2",
+    "awsRegion": "us-east-2",
+    "sourceIPAddress": "0.0.0.0",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/0.0.0.0 Safari/537.36",
+    "requestParameters": {
+        "fullyQualifiedArn": {
+            "arnPrefix": {
+                "partition": "aws",
+                "region": "us-east-2",
+                "account": "111111111111"
+            },
+            "relativeId": {
+                "functionName": "persist"
+            },
+            "functionQualifier": {}
+        },
+        "functionName": "arn:aws:lambda:us-east-2:111111111111:function:persist",
+        "publish": false,
+        "dryRun": false
+    },
+    "responseElements": {
+        "functionName": "persist",
+        "functionArn": "arn:aws:lambda:us-east-2:111111111111:function:persist",
+        "runtime": "python3.9",
+        "role": "arn:aws:iam::111111111111:role/service-role/lambda_test-role-6mxewxup",
+        "handler": "lambda_function.lambda_handler",
+        "codeSize": 1174,
+        "description": "",
+        "timeout": 3,
+        "memorySize": 128,
+        "lastModified": "2023-09-05T17:49:28.000+0000",
+        "codeSha256": "SdoZvUuUeaMcwuiagHH0MgMgy7R4AS/QeJMoUg7evDo=",
+        "version": "$LATEST",
+        "environment": {},
+        "tracingConfig": {
+            "mode": "PassThrough"
+        },
+        "revisionId": "903d85bb-dd50-4028-aa1f-2882068a3476",
+        "state": "Active",
+        "lastUpdateStatus": "InProgress",
+        "lastUpdateStatusReason": "The function is being created.",
+        "lastUpdateStatusReasonCode": "Creating",
+        "packageType": "Zip",
+        "architectures": [
+            "x86_64"
+        ],
+        "ephemeralStorage": {
+            "size": 512
+        },
+        "snapStart": {
+            "applyOn": "None",
+            "optimizationStatus": "Off"
+        },
+        "runtimeVersionConfig": {
+            "runtimeVersionArn": "arn:aws:lambda:us-east-2::runtime:86d4ce088432216337acec891c716c30002d0ed911f5a9574e36052e7527d6ab"
+        }
+    },
+    "requestID": "ff35fc54-b89a-4a83-8945-99290fd8ac81",
+    "eventID": "2f29bbbb-6b20-42a8-8f39-cdf6d5dabfb1",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "111111111111",
+    "eventCategory": "Management",
+    "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "lambda.us-east-2.amazonaws.com"
+    },
+    "sessionCredentialFromConsole": "true"
+}

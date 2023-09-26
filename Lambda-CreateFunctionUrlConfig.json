@@ -1,0 +1,50 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "Root",
+        "principalId": "111111111111",
+        "arn": "arn:aws:iam::111111111111:root",
+        "accountId": "111111111111",
+        "accessKeyId": "ASIAQ2EMK5RL3MFP2OEL",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2023-09-21T23:47:38Z",
+                "mfaAuthenticated": "true"
+            }
+        }
+    },
+    "eventTime": "2023-09-21T23:48:52Z",
+    "eventSource": "lambda.amazonaws.com",
+    "eventName": "CreateFunctionUrlConfig",
+    "awsRegion": "us-east-2",
+    "sourceIPAddress": "0.0.0.0",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/0.0.0.0 Safari/537.36",
+    "requestParameters": {
+        "functionName": "persist",
+        "authType": "NONE",
+        "cors": {},
+        "invokeMode": "BUFFERED"
+    },
+    "responseElements": {
+        "functionUrl": "https://56nkztk67lyhzqvifsckr2sfjm0yxbhe.lambda-url.us-east-2.on.aws/",
+        "functionArn": "arn:aws:lambda:us-east-2:111111111111:function:persist",
+        "authType": "NONE",
+        "creationTime": "2023-09-21T23:48:52.276249Z",
+        "invokeMode": "BUFFERED"
+    },
+    "requestID": "d754db72-6d0d-41d5-8c48-44ec4bb72452",
+    "eventID": "f73ea587-bf8b-41f2-9d47-a472c55adb25",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "111111111111",
+    "eventCategory": "Management",
+    "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "lambda.us-east-2.amazonaws.com"
+    },
+    "sessionCredentialFromConsole": "true"
+}

@@ -1,0 +1,229 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "Root",
+        "principalId": "111111111111",
+        "arn": "arn:aws:iam::111111111111:root",
+        "accountId": "111111111111",
+        "accessKeyId": "ASIAQ2EMK5RLRTD2XR77",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2023-09-06T05:44:39Z",
+                "mfaAuthenticated": "true"
+            }
+        }
+    },
+    "eventTime": "2023-09-06T06:44:29Z",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "RunInstances",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "0.0.0.0",
+    "userAgent": "AWS Internal",
+    "requestParameters": {
+        "instancesSet": {
+            "items": [
+                {
+                    "imageId": "ami-051f7e7f6c2f40dc1",
+                    "minCount": 1,
+                    "maxCount": 1,
+                    "keyName": "persist-keys"
+                }
+            ]
+        },
+        "instanceType": "t2.micro",
+        "blockDeviceMapping": {},
+        "monitoring": {
+            "enabled": false
+        },
+        "disableApiTermination": false,
+        "disableApiStop": false,
+        "clientToken": "359074cf-f95b-434a-90a9-e1fdd40e7de8",
+        "networkInterfaceSet": {
+            "items": [
+                {
+                    "deviceIndex": 0,
+                    "associatePublicIpAddress": true,
+                    "groupSet": {
+                        "items": [
+                            {
+                                "groupId": "sg-0df71e130363f950b"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "iamInstanceProfile": {
+            "arn": "arn:aws:iam::111111111111:instance-profile/PersistRole"
+        },
+        "ebsOptimized": false,
+        "tagSpecificationSet": {
+            "items": [
+                {
+                    "resourceType": "instance",
+                    "tags": [
+                        {
+                            "key": "Name",
+                            "value": "LegitWebServer"
+                        }
+                    ]
+                }
+            ]
+        },
+        "privateDnsNameOptions": {
+            "hostnameType": "ip-name",
+            "enableResourceNameDnsARecord": true,
+            "enableResourceNameDnsAAAARecord": false
+        }
+    },
+    "responseElements": {
+        "requestId": "1b7d24a2-1a2b-48fd-89a3-e5c0a9652961",
+        "reservationId": "r-03c4e6d90eb49d8b4",
+        "ownerId": "111111111111",
+        "groupSet": {},
+        "instancesSet": {
+            "items": [
+                {
+                    "instanceId": "i-0b6061bb16b546394",
+                    "imageId": "ami-051f7e7f6c2f40dc1",
+                    "bootMode": "uefi-preferred",
+                    "currentInstanceBootMode": "legacy-bios",
+                    "instanceState": {
+                        "code": 0,
+                        "name": "pending"
+                    },
+                    "privateDnsName": "ip-172-31-34-42.ec2.internal",
+                    "keyName": "persist-keys",
+                    "amiLaunchIndex": 0,
+                    "productCodes": {},
+                    "instanceType": "t2.micro",
+                    "launchTime": 1693982668000,
+                    "placement": {
+                        "availabilityZone": "us-east-1b",
+                        "tenancy": "default"
+                    },
+                    "monitoring": {
+                        "state": "disabled"
+                    },
+                    "subnetId": "subnet-7fe2d422",
+                    "vpcId": "vpc-2ad25051",
+                    "privateIpAddress": "0.0.0.0",
+                    "stateReason": {
+                        "code": "pending",
+                        "message": "pending"
+                    },
+                    "architecture": "x86_64",
+                    "rootDeviceType": "ebs",
+                    "rootDeviceName": "/dev/xvda",
+                    "blockDeviceMapping": {},
+                    "virtualizationType": "hvm",
+                    "hypervisor": "xen",
+                    "tagSet": {
+                        "items": [
+                            {
+                                "key": "Name",
+                                "value": "LegitWebServer"
+                            }
+                        ]
+                    },
+                    "clientToken": "359074cf-f95b-434a-90a9-e1fdd40e7de8",
+                    "groupSet": {
+                        "items": [
+                            {
+                                "groupId": "sg-0df71e130363f950b",
+                                "groupName": "launch-wizard-1"
+                            }
+                        ]
+                    },
+                    "sourceDestCheck": true,
+                    "networkInterfaceSet": {
+                        "items": [
+                            {
+                                "networkInterfaceId": "eni-096abc7aa14516feb",
+                                "subnetId": "subnet-7fe2d422",
+                                "vpcId": "vpc-2ad25051",
+                                "ownerId": "111111111111",
+                                "status": "in-use",
+                                "macAddress": "0e:3a:01:5e:25:71",
+                                "privateIpAddress": "0.0.0.0",
+                                "privateDnsName": "ip-172-31-34-42.ec2.internal",
+                                "sourceDestCheck": true,
+                                "interfaceType": "interface",
+                                "groupSet": {
+                                    "items": [
+                                        {
+                                            "groupId": "sg-0df71e130363f950b",
+                                            "groupName": "launch-wizard-1"
+                                        }
+                                    ]
+                                },
+                                "attachment": {
+                                    "attachmentId": "eni-attach-0cddd56c5710cff47",
+                                    "deviceIndex": 0,
+                                    "networkCardIndex": 0,
+                                    "status": "attaching",
+                                    "attachTime": 1693982668000,
+                                    "deleteOnTermination": true
+                                },
+                                "privateIpAddressesSet": {
+                                    "item": [
+                                        {
+                                            "privateIpAddress": "0.0.0.0",
+                                            "privateDnsName": "ip-172-31-34-42.ec2.internal",
+                                            "primary": true
+                                        }
+                                    ]
+                                },
+                                "ipv6AddressesSet": {},
+                                "tagSet": {}
+                            }
+                        ]
+                    },
+                    "iamInstanceProfile": {
+                        "arn": "arn:aws:iam::111111111111:instance-profile/PersistRole",
+                        "id": "AIPAQ2EMK5RL45WUTN62E"
+                    },
+                    "ebsOptimized": false,
+                    "enaSupport": true,
+                    "cpuOptions": {
+                        "coreCount": 1,
+                        "threadsPerCore": 1
+                    },
+                    "capacityReservationSpecification": {
+                        "capacityReservationPreference": "open"
+                    },
+                    "enclaveOptions": {
+                        "enabled": false
+                    },
+                    "metadataOptions": {
+                        "state": "pending",
+                        "httpTokens": "required",
+                        "httpPutResponseHopLimit": 2,
+                        "httpEndpoint": "enabled",
+                        "httpProtocolIpv4": "enabled",
+                        "httpProtocolIpv6": "disabled",
+                        "instanceMetadataTags": "disabled"
+                    },
+                    "maintenanceOptions": {
+                        "autoRecovery": "default"
+                    },
+                    "privateDnsNameOptions": {
+                        "hostnameType": "ip-name",
+                        "enableResourceNameDnsARecord": true,
+                        "enableResourceNameDnsAAAARecord": false
+                    }
+                }
+            ]
+        }
+    },
+    "requestID": "1b7d24a2-1a2b-48fd-89a3-e5c0a9652961",
+    "eventID": "15188a01-efd6-407c-8ce4-681a8db5ebf7",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "111111111111",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}
