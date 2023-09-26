@@ -1,1 +1,1 @@
-# AWS_CloudTrailExamples
+# AWS-CloudTrailExamples
